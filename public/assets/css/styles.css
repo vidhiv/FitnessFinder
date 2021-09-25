@@ -1,0 +1,266 @@
+/* html  */
+body {
+  font-family: "Merriweather";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Merriweather";
+}
+
+p {
+  color: #8f8f8f;
+  font-family: "Noto Sans"
+}
+
+p.info-text-big {
+  color: #FFE194;
+  font-family: "Noto Sans";
+  font-size: 1.2rem
+}
+
+p.info-text-sm {
+  color: #FFE194;
+  font-family: "Noto Sans";
+  font-size: 1rem
+}
+
+/* Headings Section */
+.big-heading {
+  font-family: "Merriweather";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #FFE194;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.fa-2x {
+  padding-right: 5px;
+}
+
+.navbar-brand {
+  font-family: "Noto Sans"
+}
+
+/* containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* sections */
+.colored-section {
+  background-color: #4C4C6D;
+  color: white;
+}
+
+.white-section {
+  background-color: #fff;
+  color: black;
+}
+
+#selectPlan .price-text, #selectPlan h3 {
+  color: black;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 1.5rem;
+}
+
+.navbar-brand {
+  font-family: "Noto Sans";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Merriweather";
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*Title Section*/
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Title Image */
+.title-image {
+  width: 90%;
+  transform: rotate(10deg);
+  position: relative;
+  top: 10%;
+  left: 5%;
+}
+.ad-image{
+  align-self: center;
+  height: 400px;
+  width: 200px;
+}
+
+/* features section*/
+#features {
+  position: relative;
+  z-index: +1;
+}
+
+.fa-5x {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  color: #B8DFD8;
+}
+
+.fa-5x:hover {
+  color: #E8F6EF;
+}
+
+.text-center {
+  padding: 3%;
+}
+
+.feature-title {
+  font-size: 1rem;
+}
+
+/* testimonial section */
+.testimonial-image {
+  border-radius: 50%;
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* press */
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 40px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 3% 2%;
+}
+
+
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* cta */
+/* footer */
+.foot-icons {
+  margin: 20px 10px;
+}
+
+.medium-i-fb-t {
+  color: inherit;
+}
+
+.medium-i-fb-t:hover {
+  color: #B8DFD8;
+}
+
+/* media */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* modal */
+.dumbbell {
+  display: block;
+  margin: 10px 240px 0px;
+  color: #4C4C6D;
+}
+
+.modal-title{
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+
+
+.modal-body {
+  color: black;
+}
+
+/* .invalid class prevents CSS from automatically applying */
+.invalid input:required:invalid {
+  background: #BE4C54;
+}
+
+/* Mark valid inputs during .invalid state */
+.invalid input:required:valid {
+  background: #17D654;
+}
+
+.form-control:focus {
+  box-shadow:  5px 5px 5px black;
+  border-color: black;
+
+}
+
+.loginC {
+  width: 100%;
+  text-align: center;
+}
+.forgot {
+  width: 100%;
+  text-align: center;
+}
+
+.forgotL {
+  color: gray;
+}
+
+.forgotL:hover {
+  color: black;
+}
+
+#footer {
+  text-align: center;
+}
+
+#footer .container-fluid {
+  padding: 2% 0%;
+}
+
+form .bootstrap-select{
+  width: 100%!important;
+  min-width: 190px;
+}

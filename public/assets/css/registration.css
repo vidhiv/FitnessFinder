@@ -1,0 +1,165 @@
+/* html  */
+body {
+  font-family: "Merriweather";
+  text-align: center;
+  background-color: #4C4C6D;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Merriweather";
+}
+
+p {
+  color: #8f8f8f;
+  font-family: "Noto Sans"
+}
+
+/* Headings Section */
+.big-heading {
+  font-family: "Merriweather";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #FFE194;
+
+}
+
+.cl {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.fa-2x {
+  padding-right: 5px;
+  padding-left: 5px;
+  color: #FFE194;
+}
+
+.navbar-brand {
+  font-family: "Noto Sans";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #FFE194;
+  position: relative;
+  top: 2px;
+
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.title {
+  text-align: left;
+}
+
+.contentDiv {
+  text-align: left;
+}
+
+.contentDiv h2 {
+  color: rgb(247, 247, 208);
+  font-size: 2rem;
+}
+
+.contentDiv label, .contentDiv p{
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+/* media */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+
+}
+
+label {
+  color: #FFE194;
+}
+
+.row {
+  padding: 20px;
+}
+
+/* forgot password */
+.forgot {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.forgotL {
+  color: white;
+}
+
+.forgotL:hover {
+  color: #FFE194;
+}
+
+/* button small */
+.btn-sm {
+  margin: 5px;
+}
+
+.btn-sm:hover {
+  background-color: #FFE194;
+}
+
+/* continue btn */
+.continueB {
+  margin-top: 20px;
+}
+
+
+/* modal */
+.modal-title {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+/* form */
+.form-control:focus {
+    box-shadow:  5px 5px 5px black;
+    border-color: black;
+  }
+
+.letEveryone {
+  line-height: 1.5;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.form-check {
+  padding-top: 25px;
+}
+
+.custom-control-label {
+  padding: 0px 5px;
+}
+
+/* optional */
+
+.optional {
+  max-width: 50%;
+  margin: 40px auto;
+}
+
+.col {
+  color: #FFE194;
+}
+
+.col-auto {
+  color: white;
+  text-align: center;
+  }
